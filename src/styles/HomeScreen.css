@@ -1,0 +1,10 @@
+.home-scroll{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: scroll;
+    overscroll-behavior-inline: contain;
+}
+.home-scroll::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}

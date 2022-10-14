@@ -1,0 +1,13 @@
+.Full-div-small{
+    margin-left: 45px;
+}
+.AnimatedList{
+    display: grid;
+    grid-auto-flow: column;
+    
+    overflow-x: scroll;
+    overscroll-behavior-inline: contain;
+}
+.AnimatedList::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
